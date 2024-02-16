@@ -88,6 +88,6 @@ workflows:
       - build-and-test:
           requires:
             - build-and-test-and-deploy
-      -build:
-          requires:
-            - build-and-test
+            -build:
+                requires:
+                  - build-and-test
