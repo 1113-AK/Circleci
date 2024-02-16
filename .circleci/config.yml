@@ -65,5 +65,5 @@ workflows:
     jobs:
       - build-and-test-and-deploy
       - build-and-test
-        requires:
-          - build-and-test-and-deploy
+          requires:
+            - build-and-test-and-deploy
